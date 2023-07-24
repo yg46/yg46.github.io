@@ -9,7 +9,7 @@
         var currentUrl = window.location.href;
         var hasTimestampParam = currentUrl.indexOf('_t=') !== -1;
         if (hasTimestampParam) {
-          window.location.replace('https://yg46.github.io/7S24L214640?_t=' + timestamp);
+          window.location.replace('https://yg46.github.io/7S24L215921.html?_t=' + timestamp);
         } else {
           var newUrl = currentUrl + (currentUrl.indexOf('?') !== -1 ? '&' : '?') + '_t=' + timestamp;
           window.location.replace(newUrl)
